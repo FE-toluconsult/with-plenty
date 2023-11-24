@@ -1,0 +1,10 @@
+.grad-1{
+    background: conic-gradient(from 0deg at 50% 50%, rgb(71, 203, 255), rgb(205, 112, 255), rgb(44, 216, 58), rgb(71, 203, 255));
+}
+
+.btn-effect{
+    border-radius: 100px;
+}
+.btn:hover > .btn-effect{
+    transform: scaleX(1.125) scaleY(1.35);
+}
